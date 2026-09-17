@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.zip
+bin/tofu
+tofu/environments/sandbox/.build/
+artifacts/incoming/*
+!artifacts/incoming/.gitkeep

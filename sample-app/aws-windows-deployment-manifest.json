@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "deployments": {
+    "custom": [
+      {
+        "name": "DotNet48Sample",
+        "architecture": 64,
+        "scripts": {
+          "install": {
+            "file": "install.ps1"
+          },
+          "restart": {
+            "file": "restart.ps1"
+          },
+          "uninstall": {
+            "file": "uninstall.ps1",
+            "ignoreErrors": true
+          }
+        }
+      }
+    ]
+  }
+}
